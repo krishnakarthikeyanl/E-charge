@@ -6,7 +6,7 @@ import UserHome from './components/UserHome';
 import OwnerDashboard from './components/ownerHome';
 import OwnerNavbar from './components/Ownernavbar'; 
 import Profile from './components/Profile';
-import AddStation from './components/AddStation';
+import AddStation from './components/AddStation'
 import supabase from '../SupabaseClient';
 import Bookings from './components/Bookings'; 
 import UserProfile from './components/UserProfile';
@@ -102,7 +102,7 @@ function App() {
                 <OwnerNavbar /> 
                 <Routes>
                   <Route path="dashboard" element={<OwnerDashboard />} />
-                  <Route path="add-station" element={<Addstation />} />
+                  <Route path="add-station" element={<AddStation />} />
                   <Route path="Bookings" element={<Bookings /> } />
                   <Route path="profile" element={<Profile />} />
                 </Routes>
