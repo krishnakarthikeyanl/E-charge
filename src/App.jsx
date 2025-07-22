@@ -6,7 +6,7 @@ import UserHome from './components/UserHome';
 import OwnerDashboard from './components/ownerHome';
 import OwnerNavbar from './components/Ownernavbar'; 
 import Profile from './components/Profile';
-import Addstation from './components/addstation';
+import Addstation from './components/AddStation';
 import supabase from '../SupabaseClient';
 import Bookings from './components/Bookings'; 
 import UserProfile from './components/UserProfile';
